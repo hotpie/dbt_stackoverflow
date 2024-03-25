@@ -1,0 +1,28 @@
+[0m01:12:33.581065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8BFB6F750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8BFB385D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8BFB38C90>]}
+
+
+============================== 01:12:33.589065 | 020b31e2-c67d-4d30-9db1-f095043826b8 ==============================
+[0m01:12:33.589065 [info ] [MainThread]: Running with dbt=1.7.10
+[0m01:12:33.590065 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\LouwG\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init dbt_stackoverflow', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:12:33.603932 [debug] [MainThread]: Starter project path: c:\Users\LouwG\source\sandbox\dbt_stackoverflow\.venv\Lib\site-packages\dbt\include\starter_project
+[0m01:12:33.656117 [info ] [MainThread]: 
+Your new dbt project "dbt_stackoverflow" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:12:33.657118 [info ] [MainThread]: Setting up your profile.
+[0m01:12:49.430540 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m01:12:49.432277 [debug] [MainThread]: Command `dbt init` succeeded at 01:12:49.432277 after 15.91 seconds
+[0m01:12:49.433292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8BF76BA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8C0202910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A8B9F4A610>]}
+[0m01:12:49.433292 [debug] [MainThread]: Flushing usage events
